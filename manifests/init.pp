@@ -9,6 +9,12 @@ class bettertouchtool (
     provider => 'brewcask',
     require  => Homebrew::Tap['halyard/casks']
   } ->
+  osx_default { 'Enable launch on boot for BetterTouchTool':
+    domain => 'com.hegenberg.BetterTouchTool',
+    key    => 'launchOnStartup',
+    value  => 1,
+    type   => 'integer'
+  } ->
   osx_login_item { 'BetterTouchTool':
     hidden => true,
     path   => $install_path
