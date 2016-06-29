@@ -10,7 +10,7 @@
   "dependencies": [
     {
       "name": "halyard/homebrew",
-      "version_requirement": "1.13.x"
+      "version_requirement": "2.0.x"
     },
     {
       "name": "halyard/brewcask",
