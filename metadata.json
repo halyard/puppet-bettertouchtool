@@ -9,10 +9,6 @@
   "issues_url": "https://github.com/halyard/puppet-bettertouchtool/issues",
   "dependencies": [
     {
-      "name": "halyard/homebrew",
-      "version_requirement": "2.0.x"
-    },
-    {
       "name": "halyard/brewcask",
       "version_requirement": "0.1.x"
     }
